@@ -91,7 +91,7 @@ void printNames(vector<Student*> StudentList) {
     cout << (*printAll) -> firstName << " ";
     cout << (*printAll) -> lastName << ", ";
     cout << (*printAll) -> ID << ", ";
-    cout << setprecision(3) << (*printAll) -> GPA << "\n"; 
+    cout << setprecision(2)<< fixed << (*printAll) -> GPA << "\n"; 
    }
 }
 }

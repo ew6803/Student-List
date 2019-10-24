@@ -113,8 +113,7 @@ void deleteName(vector<Student*>* StudentList) {
 	return;
     }
       else {
-	// If no match is found, function ends.
-	cout << "No Student on This List with the Student ID Given. \n"; 
+	// If no match is found, function ends. 
     }
   }
   }
